@@ -66,7 +66,7 @@ mkdir app/jars
 
 7. Fetch data to app/data
 
-'hello world' for 'map reduce' is 'word count' so we get some words to count. I got two of my favorite books and also Wuthering Heights from Project Gutenberg in plaintext format like so:
+'hello world' for 'map reduce' is 'word count' so we get some words to count. I got two of Calvin's favorite books and also Wuthering Heights from Project Gutenberg in plaintext format like so:
 
 ```
 cd /app/data
@@ -75,7 +75,7 @@ curl https://www.gutenberg.org/cache/epub/84/pg84.txt -o shelley.txt
 curl https://www.gutenberg.org/cache/epub/768/pg768.txt -o bronte.txt
 ```
 
-It should be easy enough to find other text files on the Internet, but I used these three. Before going further, I verified that I had files of some size:
+Before going further, I verified that I had files of some size:
 
 ```
 ls -al
@@ -104,7 +104,7 @@ I got:
 WordCount.jar
 ```
 
-We are using docker cp to copy over the WordCount.jar file into our contaoner.
+We are using docker cp to copy over the WordCount.jar file into our container.
 ```
 docker cp WordCount.jar namenode:/app/jars/WordCount.jar
 ```
