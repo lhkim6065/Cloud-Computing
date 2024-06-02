@@ -50,7 +50,7 @@ docker exec -it namenode /bin/bash
 
 I tested "hello world" here:
 ```
-echo hell world
+echo hello world
 ```
 
 6. Set up the node
