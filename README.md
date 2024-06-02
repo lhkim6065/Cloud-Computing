@@ -8,7 +8,7 @@ mkdir eu2
 mkdir wxw2
 ```
 
-2. Clone the big-data-europe fork for commodity hardware in my eu2 and wxw2 directories
+2. Clone the big-data-europe fork for commodity hardware in my eu2 and wxw2 directories.
 ```
 cd wxw2
 git clone https://github.com/wxw-matt/docker-hadoop
@@ -24,7 +24,7 @@ I didn't have my Docker running and had to start it.
 docker run hello-world
 ```
 
-4. Bring the Hadoop containers up (took me 81.6s). I had previously pulled other hadoop images though so your time may vary.
+4. Bring the Hadoop containers up.
 
 ```
 docker-compose up -d
